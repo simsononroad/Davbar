@@ -1,0 +1,38 @@
+:root{
+    --davbar-link-float: left;
+    --davbar-background: rgba(186, 186, 186, 0.334);
+    --davbar-height: 3.7rem;
+    --davbar-link-color: black;
+}
+
+.davbar{
+    background-color: var(--davbar-background);
+    border-radius: 15px;
+}
+
+.davbar>ul{
+    list-style-type: none;
+    display: flex;
+    height: var(--davbar-height);
+    text-align: center;
+    align-items: center;
+    justify-content: var(--link-float);
+}
+
+.davbar>ul>li{
+
+}
+
+.davbar>ul>li>a{
+    cursor: pointer;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: gray;
+
+    &:hover{
+        
+    }
+    text-decoration: none;
+    font-style: normal;
+    color: var(--davbar-link-color);
+}
